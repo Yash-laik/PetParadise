@@ -9,7 +9,7 @@ body{
 }
 div.pay{
   background-color: #fff;
-  width: auto;
+  width: 350px;
   padding: 25px;
   margin: 25px auto 0;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
