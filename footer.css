@@ -51,51 +51,6 @@ ul.about li a:hover {
   color: #fff;
 }
 
-.Socialmedia {
-  line-height: 2.5;
-
-}
-.Socialmedia  a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-.Socialmedia {
-  width: 400%;
-  height: 40px;
-  text-align: center;
-  position: absolute;
-  top: 140px;
-  right:100%;
-  transform:translate(-50%);
-  display: flex;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Socialmedia a{
-  height: 100%;
-  width: 40px;
-  display:block;
-  margin: 0 5px;
-  font-size: 20px;
-  color: #f2f2f2;
-  background: #4a4a4a;
-  border-radius: 5px;
-  align-items: center;
-  border: 1px solid #383838;
-  transition: all 0.3s ease;
-}
-.Socialmedia a i{
-  margin:0 auto;
-}
-.Socialmedia a:hover{
-  background: #0d06f0;
-  transition: 2s;
-  transform: rotate(360deg);
-}
-
 p a {
   color: #999;
 }
