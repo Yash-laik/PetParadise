@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Dogs - Pet Paradise	</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="Icon" type="Foto/x-Icon" href="Foto/logo2.png">
+  <link rel="stylesheet" href="style4.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8ae72b10ed.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8ae72b10ed.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('Foto/cat with grass background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+  <a class="navbar-brand" href="#"><img src="Foto/logo2.png" alt="icon" width="60" height="40">Pet Paradise</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact_Us.html">Contact</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          More
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="Videos2.html">Video's</a>
+          <a class="dropdown-item" href="gamepage.html">Game</a>
+        </div>
+      </li>
+    </ul>
+    <!-- Dropdown -->
+    <form class="form-inline" action="/action_page.php" >
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <input type="checkbox" id="btn" hidden>
+  <label for="btn" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+  </label>
+  <nav id="sidebar">
+    <div class="title">
+  Pet Paradise
+    </div>
+    <ul class="list-items">
+      <li><a href="Index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i>About Us</a></li>
+      <li><a href="Contact_us.html"><i class="fa-solid fa-phone"></i> Contact </a></li>
+      <li><a href="paymentform.html"><i class="fa-solid fa-credit-card"></i> Payment</a></li>
+      <li><a href="Map.html"><i class="fa-solid fa-map-location-dot"></i> Maps</a></li>
+      <li><a href="gamepage.html"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+      <h1 class="social">Follow us on</h1>
+      <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </ul>
+  </nav>
+</div>
+
+<div class="jumbotron text-center">
+    <h1>Welcome to Pet Paradise</h1>
+    <p>Your pets deserve the best.</p>
+</div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h2 class="headr"><span>Our</span> Products</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/Siamese cat.jpg" alt="Siamese cat">
+          <div class="description">
+            <h5>Siamese cat</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$250</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/cat2.jpg" alt="cat2">
+          <div class="description">
+            <h5>Tabby cat</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$200</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/Ragdoll cat.jpg" alt="Ragdoll cat">
+          <div class="description">
+            <h5>Ragdoll</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$250</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/Black little kitten.jpg" alt="Black little kitten">
+          <div class="description">
+            <h5>Black cat</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$200</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/cat meds1.jpg" alt="cat meds1">
+          <div class="description">
+            <h5>Imaverol</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/cat meds2.jpg" alt="cat meds2">
+          <div class="description">
+            <h5>Thiamacare Oral Solution</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$12</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/mand1.jpg" alt="mand1">
+          <div class="description">
+            <h5>Cat house</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$25</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/cat doek.jpg" alt="cat doek">
+          <div class="description">
+            <h5>Cat blanket</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$12</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/Cats food1.jpg" alt="Cats food1">
+          <div class="description">
+            <h5>Whiskas cat food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/wet cat food.jpg" alt="wet cat food">
+          <div class="description">
+            <h5>Meowing heads cat food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$10</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/catlighttoy_.jpg" alt="catlighttoy">
+          <div class="description">
+            <h5>Cat laser</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$5</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/pets bak.jpg" alt="pets bak">
+          <div class="description">
+            <h5>Cat bowl</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$18</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <h4>Store Information</h4>
+        <ul class="sinfo">
+          <li>
+            <span><i class="material-icons">location_on</i></span>
+            <span>Indira Gandhiweg #82, Wanica, Suriname</span>
+          </li>
+          <li>
+            <span><i class="material-icons">phone_in_talk</i></span>
+            <span>+597 369-756 | +597 479-736</span>
+          </li>
+          <li>
+            <span><i class="material-icons">email</i></span>
+            <p><a href="mailto:petparadise12@gmail.com">petparadise12@gmail.com</a></p>
+          </li>
+          <li>
+            <span><i class="material-icons">access_time</i></span>
+            <span>Monday to Saturday: 8:00 AM-18:00 PM<br>
+            Sunday: 9:00 AM-17:00 PM</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-md-6 col-lg-3">
+        <h4>About</h4>
+        <ul class="about">
+          <li><a href="About_Us.html">About Us</a></li>
+          <li><a href="Contact_Us.html">Contact Us</a></li>
+          <li><a href="Video.html">Video's</a></li>
+          <li><a href="gamepage.html">Game</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h4>Payment Method</h4>
+        <div class="payment">
+          <img src="Foto/visa payment.png" alt="visa payment">
+          <img src="Foto/paypal payment.png" alt="paypal payment">
+          <img src="Foto/maestro payment.png" alt="maestro payment">
+          <img src="Foto/cirrus payment.png" alt="cirrus payment">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

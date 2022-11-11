@@ -1,0 +1,346 @@
+div.slider-content {
+  position: absolute;
+  bottom: 80px;
+  right: 60px;
+  text-align: right;
+  color: white;
+  z-index: 10;
+}
+
+div.slider-content a {
+  border-radius: 25px;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+div.slider-content a:hover {
+  background-color: white;
+  color: rgba(181, 101, 29, 0.7);
+  font-weight: bold;
+}
+
+.headr {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.headr span {
+  color: rgba(181, 101, 29, 0.7);
+}
+
+div.circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 2px solid rgba(181, 101, 29, 0.9);
+  object-fit: cover;
+}
+
+div.text {
+  text-align: center;
+}
+
+div.swiper-navBtn {
+  color: rgba(181, 101, 29, 0.7);
+  transition: color 0,3s ease;
+}
+
+div.swiper-navBtn:hover {
+  color: rgba(181, 101, 29, 0.9);
+}
+
+div.swiper-slide {
+  margin-bottom: 40px;
+}
+
+div span.swiper-pagination-bullet{
+    background-color: rgba(181, 101, 29, 0.7);
+}
+
+div span.swiper-pagination-bullet-active{
+    background-color: rgba(181, 101, 29, 0.9);
+}
+
+div.card {
+  padding: 10px 5px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+div.card:hover {
+  border: 2px solid rgba(181, 101, 29, 0.7);
+}
+
+div.card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+div.card .card-body {
+  padding-bottom: 0;
+}
+
+div.card .description h5 {
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+div.card .description i {
+  font-size: 18px;
+  color: rgb(243, 181, 25);
+}
+
+div.card .description h4 {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 750;
+  color: rgba(181, 101, 29, 0.7);
+}
+
+div.card .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: rgba(181, 101, 29, 0.2);
+  font-weight: 500;
+  color: rgba(181, 101, 29, 0.7);
+  text-align: center;
+  border: 2px solid rgba(181, 101, 29, 0.3);
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+
+div.card .cart:hover {
+  border: 2px solid rgba(181, 101, 29, 0.8);
+}
+
+.newsletter {
+  background-image: url('Foto/kitty background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 350px;
+  margin-top: 100px;
+}
+
+.newsletter form{
+  width: 40%;
+  margin-left: auto;
+  margin-right: 90px;
+  padding-top: 90px;
+}
+
+.newsletter form h3 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.newsletter form .news {
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.newsletter form .news:focus {
+  border: 1px solid rgba(181, 101, 29, 0.5);
+}
+
+.newsletter form .btn {
+  width: 100%;
+  background-color: rgba(181, 101, 29, 0.7);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter form .btn:hover {
+  background-color: rgba(181, 101, 29, 0.9);
+}
+
+div.customer-box {
+  background-color: rgba(181, 101, 29, 0.1);
+  margin-top: 50px;
+}
+
+div.customer-rev {
+  margin-bottom: 80px;
+}
+
+.flip-card-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flip-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+
+.flip-card:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 25px;
+}
+
+#card-background1 {
+  background-image: url('Foto/feedback3.jpg');
+  background-position: left;
+}
+
+#card-background2 {
+  background-image: url('Foto/feedback1.jpg');
+}
+
+#card-background3 {
+  background-image: url('Foto/feedback3.jpg');
+  background-position: right;
+}
+
+#card-background4 {
+  background-image: url('Foto/feedback2.jpg');
+  background-position: left;
+}
+
+#card-background5 {
+  background-image: url('Foto/feedback5.jpg');
+  background-position: right;
+}
+
+#card-background6 {
+  background-image: url('Foto/feedback2.jpg');
+  background-position: right;
+}
+
+.flip-card-front h4 {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 2px solid rgba(181, 101, 29, 0.7);
+  background-color: rgba(181, 101, 29, 0.3);
+  transform: rotateY(180deg);
+  text-align: center;
+  border-radius: 25px;
+}
+
+.flip-card-back .customer-fb img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 75px;
+  height: 75px;
+  margin: 20px 0px;
+}
+
+.flip-card-back .customer-fb p {
+  margin: 0px 20px;
+  font-size: 15px;
+}
+
+.flip-card-back .customer-fb p i {
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+div.stars {
+  color: rgb(243, 181, 25);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  div.swiper-navBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .newsletter form h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px
+  }
+
+  .newsletter form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: 40px;
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  div.card img {
+    height: 185px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  div.card img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.card img {
+    height: 450px;
+  }
+  div.card .description h5 {
+    font-size: 23px;
+  }
+
+  div.card .description i {
+    font-size: 28px;
+  }
+
+  div.card .description h4 {
+    font-size: 30px;
+  }
+
+  div.card .cart {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+}

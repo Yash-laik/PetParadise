@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+ul.sinfo {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+ul.sinfo li {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+ul.sinfo li span:nth-child(1) {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+span {
+  color: #999;
+}
+
+ul.about li a {
+  color: #999;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 70px 0px 60px 50px;
+}
+
+h4 {
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+ul.about {
+  line-height: 2.5;
+}
+
+ul.about li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Socialmedia {
+  line-height: 2.5;
+
+}
+.Socialmedia  a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.Socialmedia {
+  width: 400%;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 140px;
+  right:100%;
+  transform:translate(-50%);
+  display: flex;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Socialmedia a{
+  height: 100%;
+  width: 40px;
+  display:block;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #f2f2f2;
+  background: #4a4a4a;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid #383838;
+  transition: all 0.3s ease;
+}
+.Socialmedia a i{
+  margin:0 auto;
+}
+.Socialmedia a:hover{
+  background: #0d06f0;
+  transition: 2s;
+  transform: rotate(360deg);
+}
+
+p a {
+  color: #999;
+}
+
+p a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+div.payment img{
+  width: 40px;
+  height: 40px;
+}
+
+div.nav-icons a i {
+  color: white;
+}
+
+div.dropdown-menu a.active {
+  color: rgba(181, 101, 29, 0.9);
+  background-color: white;
+}
+
+div.dropdown-menu a:hover {
+  color: grey;
+  background-color: white;
+}
+
+@media screen and (max-width: 865px) {
+  .form-inline input[type=text] {
+      width: 160px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+  .form-inline input[type=text] {
+      width: 100%;
+      margin: 8px 0;
+    }
+  button.btn {
+    width: 100%;
+  }
+  form.form-inline {
+    display: block;
+  }
+}

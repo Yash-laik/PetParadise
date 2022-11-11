@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home - Pet Paradise</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="Icon" type="Foto's/x-Icon" href="Foto/logo2.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="style4.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/8ae72b10ed.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+  <a class="navbar-brand" href="#"><img src="Foto/logo2.png" alt="icon" width="60" height="40">Pet Paradise</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!-- Links -->
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact_Us.html">Contact</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          More
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="Videos2.html">Video's</a>
+          <a class="dropdown-item" href="gamepage.html">Game</a>
+        </div>
+      </li>
+    </ul>
+    <!-- Dropdown -->
+    <form class="form-inline" action="/action_page.php" >
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <input type="checkbox" id="btn" hidden>
+  <label for="btn" class="menu-btn">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times"></i>
+  </label>
+  <nav id="sidebar">
+    <div class="title">
+    Pet Paradise
+    </div>
+    <ul class="list-items">
+      <li class="active"><a href="Index.html"><i class="fa-solid fa-home"></i> Home</a></li>
+      <li><a href="About.html"><i class="fa-solid fa-user"></i>About Us</a></li>
+      <li><a href="Contact_us.html"><i class="fa-solid fa-phone"></i> Contact </a></li>
+      <li><a href="paymentform.html"><i class="fa-solid fa-credit-card"></i> Payment</a></li>
+      <li><a href="Map.html"><i class="fa-solid fa-map-location-dot"></i> Maps</a></li>
+      <li><a href="gamepage.html"><i class="fa-solid fa-gamepad"></i> Game</a></li>
+      <li><a href="#"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+      <h1 class="social">Follow us on</h1>
+      <div class="icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </ul>
+  </nav>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Foto/Tropical birds.jpg" alt="tropical birds">
+      <div class="slider-content">
+        <h1>Tropical Bird</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <a href="Birds.html" class="btn">Shop now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Foto/Chihuahua.jpg" alt="Chihuahua">
+      <div class="slider-content">
+        <h1>Chihuahua</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <a href="Dogs.html" class="btn">Shop now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Foto/Netherland Dwarf rabbit.jpg" alt="Netherland Dwarf rabbit">
+      <div class="slider-content">
+        <h1>Netherland Dwarf Rabbit</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <a href="Bunny.html" class="btn">Shop now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Foto/cat with grass background.jpg" alt="cat with grass background">
+      <div class="slider-content">
+        <h1>Persian Cat</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <a href="Cats.html" class="btn">Shop now</a>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h2 class="headr">Shop <span>By</span> Pet</h2>
+    </div>
+  </div>
+</div>
+
+<div class="swiper mySwiper container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Dogs.html"><img src="Foto/Border Collie.jpg" alt="Border Collie" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Dog</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Cats.html"><img src="Foto/Exotic shorthair cat.jpg" alt="Exotic shorthair cat" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Cat</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Bunny.html"><img src="Foto/Bunny sl.jpg" alt="Bunny" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Bunny</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Birds.html"><img src="Foto/blue bird.jpg" alt="blue bird" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Bird</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Fish.html"><img src="Foto/fish.png" alt="fish" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Fish</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Hamster.html"><img src="Foto/hamster.jpg" alt="hamster" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Hamster</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="circle-image">
+        <a href="Turtle.html"><img src="Foto/turtle.png" alt="turtle" width="100%"></a>
+      </div>
+      <div class="text">
+        <h5>Turtle</h5>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-button-next swiper-navBtn"></div>
+  <div class="swiper-button-prev swiper-navBtn"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h2 class="headr"><span>Best</span> Selling</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/Birds cage2.jpg" alt="bird cage">
+          <div class="description">
+            <h5>Birds cage</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$18</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/aquariums fish food.jpg" alt="aquariums fish food">
+          <div class="description">
+            <h5>Aquariums fish food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/dry cat food.jpg" alt="dry cat food">
+          <div class="description">
+            <h5>Dry cat food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$20</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/bird food.jpg" alt="bird food">
+          <div class="description">
+            <h5>Bird food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$12</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="newsletter">
+  <form action="/action_page.php" method="post">
+    <h3>Subscribe for the latest updates</h3>
+    <input type="email" id="email" name="email" placeholder="enter your email" class="news">
+    <input type="submit" value="subscribe" class="btn">
+  </form>
+</div>
+
+<div class="container">
+  <div class="row text-center">
+    <div class="col-sm-12">
+      <h2 class="headr">New <span>Arrivals</span></h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/hyperdogball_laucher_.jpg" alt="hyperdogball laucher">
+          <div class="description">
+            <h5>Hyper dog ball laucher</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$45</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/wet cat food.jpg" alt="wet cat food">
+          <div class="description">
+            <h5>Meowing heads cat food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$10</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/wet mix bird food.jpg" alt="wet mix bird food">
+          <div class="description">
+            <h5>Wet mix bird food</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$6</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="Foto/dogropetoy_.jpg" alt="dog rope toy">
+          <div class="description">
+            <h5>Dog rope toy</h5>
+            <div class="star">
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star</i>
+              <i class="material-icons">star_half</i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#"><i class="material-icons cart">shopping_cart</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="customer-box">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-12">
+        <h3 class="headr"><span>Customer</span> Review</h3>
+      </div>
+    </div>
+
+    <div class="swiper customer-rev">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background1">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/IU.jpg" alt="IU">
+                  <h5>IU</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background2">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/Jimin.jpg" alt="Jimin">
+                  <h5>Jimin</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background3">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/Suga.jpg" alt="Suga">
+                  <h5>Suga</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background4">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/Jungkook.jpg" alt="Jungkook">
+                  <h5>Jungkook</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background5">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/J-Hope.jpg" alt="J-Hope">
+                  <h5>J-Hope</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="flip-card-container">
+            <div class="flip-card">
+              <div class="flip-card-front" id="card-background6">
+                <h4>Hover me!</h4>
+              </div>
+              <div class="flip-card-back">
+                <div class="customer-fb">
+                  <img src="Foto/Jin.jpg" alt="Jin">
+                  <h5>Jin</h5>
+                  <p><i class='fa fa-quote-left'></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                  Contrary to popular belief, Lorem Ipsum is not simply random text.<i class='fa fa-quote-right'></i></p>
+                  <div class="stars">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+<div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <h4>Store Information</h4>
+        <ul class="sinfo">
+          <li>
+            <span><i class="material-icons">location_on</i></span>
+            <span>Indira Gandhiweg #82, Wanica, Suriname</span>
+          </li>
+          <li>
+            <span><i class="material-icons">phone_in_talk</i></span>
+            <span>+597 369-756 | +597 479-736</span>
+          </li>
+          <li>
+            <span><i class="material-icons">email</i></span>
+            <p><a href="mailto:petparadise12@gmail.com">petparadise12@gmail.com</a></p>
+          </li>
+          <li>
+            <span><i class="material-icons">access_time</i></span>
+            <span>Monday to Saturday: 8:00 AM-18:00 PM<br>
+            Sunday: 9:00 AM-17:00 PM</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-md-6 col-lg-3">
+        <h4>About</h4>
+        <ul class="about">
+          <li><a href="About_Us.html">About Us</a></li>
+          <li><a href="Contact_Us.html">Contact Us</a></li>
+          <li><a href="Video.html">Video's</a></li>
+          <li><a href="gamepage.html">Game</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h4>Payment Method</h4>
+        <div class="payment">
+          <img src="Foto/visa payment.png" alt="visa payment">
+          <img src="Foto/paypal payment.png" alt="paypal payment">
+          <img src="Foto/maestro payment.png" alt="maestro payment">
+          <img src="Foto/cirrus payment.png" alt="cirrus payment">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+      },
+      520: {
+        slidesPerView: 2,
+      },
+      950: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 4,
+      },
+    },
+  });
+
+  var swiper = new Swiper(".customer-rev", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+
+    breakpoints:{
+      0: {
+        slidesPerView: 1,
+      },
+      800: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    },
+  });
+</script>
+
+</body>
+</html>
